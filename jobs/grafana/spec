@@ -336,6 +336,8 @@ properties:
     description: "Set to true to enable SigV4 authentication option for HTTP-based datasources"
   grafana.auth.sigv4_verbose_logging:
     description: "Set to true to enable verbose logging of SigV4 request signing"
+  grafana.auth.oauth_allow_insecure_email_lookup:
+    description: "Enforce user lookup based on email instead of the unique ID provided by the IdP."
 
   grafana.auth.anonymous.enabled:
     description: "enable anonymous access"
